@@ -1,6 +1,8 @@
+# Original description belongs to https://github.com/mvasin/react-div-100vh
+
+# Current package is used as an urgent yet temporary solution until [#7 PR](https://github.com/mvasin/react-div-100vh/pull/7/files) is merged
+
 # `Div100vh` React component
-[![CircleCI](https://circleci.com/gh/mvasin/react-div-100vh.svg?style=svg&circle-token=cd3f9e7031e393880d945af301841db926000ec4)](https://circleci.com/gh/mvasin/react-div-100vh)
-[![npm version](https://badge.fury.io/js/react-div-100vh.svg)](https://badge.fury.io/js/react-div-100vh)
 
 This is a workaround for iOS Safari and other mobile browsers.
 
@@ -13,8 +15,8 @@ More on this issue [here](https://nicolas-hoizey.com/2015/02/viewport-height-is-
 
 ## The solution
 ### iOS screenshots
-| `<div style={{height: '100vh'}}>` | `<Div100vh>` |
-| --- | --- |
+| `<div style={{height: '100vh'}}>`                                                                                               | `<Div100vh>`                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | ![Page cropped by bottom Safari chrome](https://raw.githubusercontent.com/mvasin/react-div-100vh/master/images/regular-div.png) | ![Page cropped by bottom Safari chrome](https://raw.githubusercontent.com/mvasin/react-div-100vh/master/images/react-div-100vh.png) |
 
 ### The demo
